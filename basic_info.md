@@ -1,5 +1,6 @@
 # basical information about lung nodule 
-
+CT图像处理
+https://shartoo.github.io/medical_image_process/
 ## mhd file
 mhd文件中使用
 GetOrigin获取的是体素空间定义的原点，
