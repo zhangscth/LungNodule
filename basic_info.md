@@ -24,6 +24,7 @@ http://blog.csdn.net/inter_peng/article/details/22822237
 ### CT值怎么和matlab中图像的灰度值联系起来
 
 用从DICOM文件中读取的rescaleslope值和rescale intercept值可以将每个像素的灰度值转换成CT值。
+
 metadata=dicominfo('***.dcm')
 Hu=pixel_val*rescale_slope+rescale_intercept;
 pixel_val是第i个像素的灰度值 
